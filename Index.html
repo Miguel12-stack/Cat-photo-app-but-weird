@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+    <main>
+      <head>
+          <title>The Cutest Cat Photo Website</title>
+      </head>
+      <body>
+          <h1>CatPhotoWebsite</h1>
+           <section>
+             <h2>Cat Photo</h2>
+             <a href="https://i.pinimg.com/564x/c1/b4/ee/c1b4ee02fc804310213be0ca427af5f8.jpg" target="_blank"><img src="https://i.pinimg.com/564x/c1/b4/ee/c1b4ee02fc804310213be0ca427af5f8.jpg"></a> 
+         
+             <!--When going to put other line inside anchor (a) put it`s closing tag (<a) at the end, such as above-->
+        
+             <p>Click here to see more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a></p>
+             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">More Cat Photos</a>
+           </section>  
+          
+            <!--Remember to separate your code into sections to make it easier to understand-->
+        
+           <section>
+              <h3>Things cat <em>love</em></h3>
+         
+             <!--This is for lists, use the <ul></ul> or <ol></ol> ( in <ol> the lists are ordered and numbered, unlike the <ul>) element to nest the <li></li>-->
+              <ol>
+                  <li>throwing things of the counter</li>
+                  <li>being cold hearted assholes</li>  
+                  <li>being annoiyng specifically at 3 am</li>
+                  <li>using boxes as beds</li>
+              </ol>
+              <figure>
+              <a href="https://www.boredpanda.com/blog/wp-content/uploads/2020/10/cats-being-jerks-133-5f9a76bb6733b__700.jpg" target="_blank" ><img src="https://www.boredpanda.com/blog/wp-content/uploads/2020/10/cats-being-jerks-133-5f9a76bb6733b__700.jpg" alt="a cat being an asshole"></a>
+              <figcaption>See now? <em>they are assholes!!</em></figcaption>
+              </figure>
+              <h4>Things cats hate:</h4>
+               <ol>
+                  <li>You.</li>
+                  <li>You. specifically</li>
+                  <li>humans</li>
+                  <li>their food bowl when it's half empty</li>
+               </ol>
+              <a href="https://i.chzbgr.com/full/9446386176/hC9E981D6/bowl" target="_blank"><img src="https://i.chzbgr.com/full/9446386176/hC9E981D6/bowl"></a>
+              <figcaption>That idiot there is   mad for <strong>nothing</strong></figcaption>
+            </section>
+            
+            <section>
+               <h2>Cat forms</h2>
+               <form action="https://freecatphotoapp.com/submit-cat-photo">
+              
+                <!--you can put as many attributes to a element--> <!-- to select one single button both buttons must have a name attribute with the same value such as "indoor-outdoor" -->
+               
+               <!--The <input> tag specifies an input field where the user can enter data.
+               The <input> element can be displayed in several ways, depending on the type attribute.
+               The different input types are as follows:
+               <input type="button">
+               <input type="checkbox">
+               <input type="color">
+               <input type="date">
+               <input type="datetime-local">
+               <input type="email">
+               <input type="file">
+               <input type="hidden">
+               <input type="image">
+               <input type="month">
+               <input type="number">
+               <input type="password">
+               <input type="radio">
+               <input type="range">
+               <input type="reset">
+               <input type="search">
+               <input type="submit">
+               <input type="tel">
+               <input type="text"> (default value)
+               <input type="time">
+               <input type="url">
+               <input type="week">-->
+               
+               <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor">indoor</label>
+               <label><input type="radio" id="outdoor" name="indoor-outdoor"value="outdoor">Outdoor</label>
+               <!--If you select the Indoor radio button and submit the form, the form data for the button is based on its name and value attributes. Since your radio buttons do not have a value attribute, the form data will include indoor-outdoor=on, which is not useful when you have multiple buttons.
+               Add a value attribute to both radio buttons.-->
+               <input type="text" name="Cats" placeholder="cat photo URL" required>
+               
+               <!--Tip: Always use the <label> tag to define labels for <input type="text">, <input type="checkbox">, <input type="radio">, <input type="file">, and <input type="password">-->
+               
+                <button type="submit">Submit</button>
+            
+            </section>
+        </body>
+    </main>
+</html>
